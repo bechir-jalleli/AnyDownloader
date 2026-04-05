@@ -14,18 +14,8 @@ app.use(helmet({
   contentSecurityPolicy: false,
 }));
 
-const allowedOrigins = process.env.ALLOWED_ORIGINS 
-  ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim())
-  : [];
-
 app.use(cors({
-  origin: function(origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: '*',
   exposedHeaders: ['Content-Disposition'],
 }));
 app.use(express.json());
@@ -50,7 +40,7 @@ app.use('/api', apiRoutes);
 const server = http.createServer(app);
 const io = new SocketIOServer(server, {
   cors: {
-    origin: allowedOrigins,
+    origin: '*',
     methods: ['GET', 'POST'],
   },
 });
