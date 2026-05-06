@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "VdDownloader"
+  },
+  "downloader": {
+    "title": "Universal Video Downloader",
+    "subtitle": "Download high-quality videos from YouTube, Instagram, Facebook, and more in seconds.",
+    "inputPlaceholder": "Paste your video link here...",
+    "btnFetch": "Fetch Video Info",
+    "btnReset": "Download Another",
+    "status": {
+      "ready": "Ready to download",
+      "fetching": "Analyzing video URL...",
+      "success": "Video processed successfully!",
+      "error": "Failed to fetch video. Please check the URL."
+    },
+    "format": "Format",
+    "quality": "Quality",
+    "size": "Size",
+    "action": "Action",
+    "download": "Download"
+  },
+  "contact": {
+    "badge": "Available for projects",
+    "title": "Let's create something",
+    "titleAccent": "exceptional.",
+    "desc": "I combine design and technology to build premium digital experiences. Ready to start your next journey?",
+    "emailLabel": "Email",
+    "copyEmail": "Copy Email",
+    "copied": "Copied"
+  },
+  "footer": {
+    "desc": "Fast, secure video downloads from all your favorite platforms. No sign-up required.",
+    "badge": "Free to use",
+    "rights": "All rights reserved."
+  }
+}

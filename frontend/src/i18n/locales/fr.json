@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "VdDownloader"
+  },
+  "downloader": {
+    "title": "Téléchargeur de Vidéo Universel",
+    "subtitle": "Téléchargez des vidéos de haute qualité depuis YouTube, Instagram, Facebook et plus en quelques secondes.",
+    "inputPlaceholder": "Collez votre lien vidéo ici...",
+    "btnFetch": "Récupérer les Infos",
+    "btnReset": "Télécharger une autre",
+    "status": {
+      "ready": "Prêt à télécharger",
+      "fetching": "Analyse de l'URL de la vidéo...",
+      "success": "Vidéo traitée avec succès !",
+      "error": "Échec de la récupération. Veuillez vérifier l'URL."
+    },
+    "format": "Format",
+    "quality": "Qualité",
+    "size": "Taille",
+    "action": "Action",
+    "download": "Télécharger"
+  },
+  "contact": {
+    "badge": "Disponible pour des projets",
+    "title": "Créons quelque chose",
+    "titleAccent": "d'exceptionnel.",
+    "desc": "Je combine design et technologie pour créer des expériences numériques premium. Prêt à commencer votre prochain voyage ?",
+    "emailLabel": "E-mail",
+    "copyEmail": "Copier l'e-mail",
+    "copied": "Copié"
+  },
+  "footer": {
+    "desc": "Téléchargements vidéo rapides et sécurisés depuis toutes vos plateformes préférées. Aucune inscription requise.",
+    "badge": "Utilisation gratuite",
+    "rights": "Tous droits réservés."
+  }
+}

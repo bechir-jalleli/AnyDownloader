@@ -1,4 +1,4 @@
-# AnyDownloader
+# VdDownloader
 
 ![Node.js](https://img.shields.io/badge/Node.js-14.0+-green.svg)
 ![React](https://img.shields.io/badge/React-18.x-blue.svg)
@@ -17,7 +17,7 @@ A modern, high-speed, and secure video/audio downloader built on the MERN stack 
 ## 🚀 Key Functionality
 
 1. **Direct Streaming Architecture**  
-   Unlike traditional downloaders that save files to the server's hard drive first, AnyDownloader establishes a live data pipe. The backend spawns `yt-dlp` to fetch the media and streams the `stdout` binary data directly into the user's browser HTTP response. This guarantees maximum download speed and zero server bloat.
+   Unlike traditional downloaders that save files to the server's hard drive first, VdDownloader establishes a live data pipe. The backend spawns `yt-dlp` to fetch the media and streams the `stdout` binary data directly into the user's browser HTTP response. This guarantees maximum download speed and zero server bloat.
 
 2. **2-Step Rich Interface Flow**  
    - **Phase 1 (Fetch Info):** The `/api/info` endpoint queries the video link to safely fetch metadata. It returns the video's original title, platform (e.g., youtube, facebook), high-quality thumbnail, and scans the system for native resolutions.
